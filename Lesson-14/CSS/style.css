@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  min-height: 400px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center; /* Justify-content property works for mains axis*/
+  align-items: center; /* align-items property works for cross axis*/
+  /* gap: 1rem; */
+  flex-direction: row;
+  flex-wrap: wrap; /* The items inside flexbox are not wrapped in it by default but we can wrap them by this property*/
+  flex-flow: column wrap; /* flex-flow is a shorthand notation where first value is for flex-direction property and the second value is for flex-wrap property. */
+
+  /* align-content: space-evenly; */
+}
+
+.box {
+  /* min-width: 100px; */
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis: 100px; */
+}
+
+.violet {
+  background-color: violet;
+  border: 1px solid #222;
+}
+
+.indigo {
+  background-color: #d645d6;
+  border: 1px solid #222;
+}
+
+.blue {
+  background-color: blue;
+  border: 2px solid #222;
+}
+
+.green {
+  background-color: green;
+  border: 2px solid #222;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 2px solid #222;
+}
+
+.orange {
+  background-color: orange;
+  border: 2px solid #222;
+}
